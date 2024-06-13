@@ -1,0 +1,10 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="app.Fifth">   
+    <App>
+        <Page title="My App">
+      <TextArea value="{/message}"/>
+    <Button class="sapUiMediumMarginBegin"
+        text="Show text"
+        press="show_text"/>
+        </Page>
+    </App>
+</mvc:View>
